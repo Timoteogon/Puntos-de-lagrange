@@ -1,6 +1,12 @@
 # Puntos de Lagrange en el sistema Sol–Tierra
 
-Notebook de Jupyter/Colab (`puntos_de_lagrange.ipynb`) que estudia el **problema restringido de tres cuerpos circular** en el sistema Sol–Tierra. Se grafica el potencial efectivo en el sistema de referencia rotante, donde se identifican visualmente los puntos de equilibrio de Lagrange (L1–L5).
+**Autor:** Mateo C. Gonzalez  
+*Universidad de Antioquia — Medellín, Colombia*  
+**GitHub:** [@Timoteogon ](https://github.com/Timoteogon)  
+**Contacto:** `mateo.chavarriag@udea.edu.co`
+
+
+Proyecto de mecánica celeste  que estudia el **problema restringido de tres cuerpos circular** en el sistema Sol–Tierra. Se grafica el potencial efectivo en el sistema de referencia rotante, donde se identifican visualmente los puntos de equilibrio de Lagrange (L1–L5).
 
 ## Descripción
 
@@ -80,3 +86,8 @@ La última celda genera una figura de 9×9 con las curvas de nivel del potencial
 - Integrar órbitas de la partícula de prueba con `solve_ivp` y animarlas con `celluloid`.
 - Analizar la estabilidad de los puntos (criterio de Routh, $\mu < 0.0385$) y la constante de Jacobi.
 - Usar la razón de masas real Sol–Tierra.
+
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
